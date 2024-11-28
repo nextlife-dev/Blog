@@ -202,6 +202,9 @@ export default (() => {
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+
+        {/* д©╫╨ер css */}
+        <link href="https://fonts.cdnfonts.com/css/nanumsquare-neo" rel="stylesheet" />
       </head>
     )
   }
