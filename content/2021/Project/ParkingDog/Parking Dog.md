@@ -68,8 +68,8 @@ Parking Dog “나만의 주차 안내견”라고 하며, 주차 솔루션 애�
 
 ### 문서
 
-[[2021/Project/ParkingDog/Database Structure|Database Structure]]
-[[2021/Project/ParkingDog/User Interface|User Interface]]
+- [[2021/Project/ParkingDog/Database Structure|Database Structure]]
+- [[2021/Project/ParkingDog/User Interface|User Interface]]
 
 ### 기술 스택
 
@@ -91,10 +91,10 @@ Parking Dog “나만의 주차 안내견”라고 하며, 주차 솔루션 애�
 
 ### 배웠던 점
 
-결제하기 위해 필요한 정보에 대해 알게 되었다. 
+결제하기 위해 필요한 정보에 대해 알게 되었습니다.
 
-1. 공식적으로 결제되기 위해서는 판매하는 입장에서 사업자등록번호가 있어야 된다.
-2. 데이터베이스와 연동하여 JSP 측에서 제품에 대한 정보를 자바스크립트 변수에 올릴 수 있다.
-3. 사용자가 “결제” 버튼을 누르면 API에서 자동으로 결제 화면으로 이동하게 한다.
+1. 공식적으로 결제되기 위해서는 판매하는 입장에서 사업자등록번호가 있어야 합니다.
+2. 데이터베이스와 연동하여 JSP 측에서 제품에 대한 정보를 자바스크립트 변수에 올릴 수 있습니다.
+3. 사용자가 “결제” 버튼을 누르면 API에서 자동으로 결제 화면으로 이동하게 합니다.
 
-이러한 과정은 페이 API의 기본 도메인이다. 이 도메인을 활용하여 만약 사업자등록하고 장사하기 위해 이 API를 활용할 수 있을 것이다.
+이러한 과정은 페이 API의 기본 도메인 위에서 동작하므로 이 도메인을 활용하여 만약 사업자등록하고 운영하기 위해 이 API를 활용할 수 있을 것입니다.

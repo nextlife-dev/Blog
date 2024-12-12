@@ -114,17 +114,9 @@ DO UPDATE subscribedata SET ssamount = 0;
 
 ### 사용자 가입 및 차량 등록
 
-김철수는 Packing Dog 앱을 다운로드하고 가입을 결정한다.  
-김철수는 앱에서 회원가입 양식을 작성한다.
-
-`userdata` 테이블에 새로운 레코드가 생성된다:
-
 ```sql
 INSERT INTO userdata (id, name, password) VALUES ('kim_cs', '김철수', 'hashedpassword123');
 ```
-
-가입 후 김철수는 자신의 차량 정보를 등록한다.   
-`mycar` 테이블에 새로운 레코드가 추가된다:
 
 ```sql
 INSERT INTO mycar (id, size, carnumber) VALUES ('kim_cs', '중형', '12가 3456');
@@ -132,28 +124,17 @@ INSERT INTO mycar (id, size, carnumber) VALUES ('kim_cs', '중형', '12가 3456'
 
 ### 주차장 검색 및 이용
 
-김철수는 회사 근처의 주차장을 찾고 있다.   
-앱은 김철수의 현재 위츠 주변의 주차장 정보를 `carpark` 테이블에서 조회한다.
-
 ```sql
 SELECT parkname, parkaddress, nowspace, canss, ssamount
 FROM carpark
 WHERE xlocation BETWEEN ? AND ? AND ylocation BETWEEN ? AND ?;
 ```
 
-김철수는 “한경뷰 주차장”을 선택하고 주차한다.  
-`carpark` 테이블의 해당 주차장 정보가 업데이트된다:
-
 ```sql
 UPDATE carpark SET nowspace = nowspace - 1 WHERE parkname = '한강뷰 주차장';
 ```
 
 ### 정기구독 신청
-
-김철수는 회사 근처 주차장의 정기구독을 결정한다.  
-“한강뷰 주차장”의 월 구독 서비스를 신청한다.
-
-`subscribedata` 테이블에 새로운 레코드가 생성된다:
 
 ```sql
 INSERT INTO subscribedata (id, name, endss, ssamount, parkname, sid, status) 
@@ -162,17 +143,11 @@ VALUES ('kim_cs', '김철수', DATE_ADD(CURRENT_DATE, INTERVAL 1 MONTH), 100000,
 
 ### 공지사항 확인
 
-김철수는 앱의 공지사항을 확인한다.  
-앱은 `noticeboard` 테이블에서 최근 공지사항을 조회한다:
-
 ```sql
 SELECT title, content, ts FROM noticeboard ORDER BY ts DESC LIMIT 5;
 ```
 
 ### 문의사항 등록
-
-김철수는 구독 서비스에 대한 문의사항이 있어 문의를 등록한다.  
-문의사항이 `contactUsboard` 테이블에 추가한다.
 
 ```sql
 INSERT INTO contactUsboard (id, name, subtype, title, content)
@@ -181,6 +156,5 @@ VALUES ('kim_cs', '김철수', '구독문의', '구독 기간 변경 가능한�
 
 ### 월별 구독료 초기화
 
-매월 1일, 설정된 이벤트에 의해 구독자들의 월 구독료가 초기화된다.
-
-`initializeSSAmount` 이벤트가 실행되어 `subscribedata` 테이블의 `ssamount` 컬럼이 초기화된다.
+매월 1일, 설정된 이벤트에 의해 구독자들의 월 구독료가 초기화되며,  
+`initializeSSAmount` 이벤트가 실행되어 `subscribedata` 테이블의 `ssamount` 컬럼이 초기화됩니다.
