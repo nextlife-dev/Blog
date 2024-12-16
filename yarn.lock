@@ -540,12 +540,12 @@
   dependencies:
     langium "3.0.0"
 
-"@myriaddreamin/rehype-typst@^0.5.0-rc7":
-  version "0.5.0-rc7"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/rehype-typst/-/rehype-typst-0.5.0-rc7.tgz#1f0f73e486e4691bf71eb903efdcd89358ca0264"
-  integrity sha512-oIUmJzV8c+PZoV4TZwSupN9e06EaC2i0DpjU6NPe6y0HE7MoPOd35s6i+RjdSNPDguqBdP2MO4VaqnGahQW/ig==
+"@myriaddreamin/rehype-typst@^0.5.0-rc9":
+  version "0.5.0-rc9"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/rehype-typst/-/rehype-typst-0.5.0-rc9.tgz#73367533e85f0a771fc0c0d0a7aa14651ad415b4"
+  integrity sha512-6YZ7KkoWch/5bOBUHAbHX3lpYV0KfS7Cwa6/AdU70YoQCLxU2nut9D+vNMH0iWujFU8545nMngh2D0vZRKOofA==
   dependencies:
-    "@myriaddreamin/typst-ts-node-compiler" "^0.5.0-rc7"
+    "@myriaddreamin/typst-ts-node-compiler" "^0.5.0-rc9"
     "@types/hast" "^3.0.0"
     "@types/katex" "^0.16.0"
     hast-util-from-html-isomorphic "^2.0.0"
@@ -554,77 +554,77 @@
     unist-util-visit-parents "^6.0.0"
     vfile "^6.0.0"
 
-"@myriaddreamin/typst-ts-node-compiler-android-arm-eabi@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-android-arm-eabi/-/typst-ts-node-compiler-android-arm-eabi-0.5.0-rc9.tgz#097f5d5145a99fed1c9af92b4d4adc1dc2875a02"
-  integrity sha512-xMvGjWeuP8CwTYIzrcK2ypwiUStlcUv8QPHqocQbCq4lWdtMf5ib2gX2Q3yW3phoFjZ34Q07NS2vFOJ3eVHnbQ==
+"@myriaddreamin/typst-ts-node-compiler-android-arm-eabi@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-android-arm-eabi/-/typst-ts-node-compiler-android-arm-eabi-0.5.1.tgz#28257076de80aaf8a26e56de94b982fe11ac5757"
+  integrity sha512-lKGEuFshXocY5c6S/gTGtih1j3Re5Ll3yKglsGIi0NRwgkWf1Br+NAsokFwp6FB8v3IxatxGZU6nhderhGDDpA==
 
-"@myriaddreamin/typst-ts-node-compiler-android-arm64@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-android-arm64/-/typst-ts-node-compiler-android-arm64-0.5.0-rc9.tgz#52cfcbdcfbd46335ab8b33961beab67a24da798d"
-  integrity sha512-ouW568elMbFbYGdVJHwlR65GAR94KudgTxL1bSA/YpVnhiTlqIVlgwcetxfK60xb0oBI/OcEPEXfymiHj9POEg==
+"@myriaddreamin/typst-ts-node-compiler-android-arm64@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-android-arm64/-/typst-ts-node-compiler-android-arm64-0.5.1.tgz#fcd76f18012d4ed91cebecf1f70b03276fa39d09"
+  integrity sha512-PuvsutqJNM/dWNd0O3jX03wGZqlLd15lxfrH2JSLApKED3HzOp4k/bG6NrMxzQsMfPT+OVLEQCmwotGxqVrFJg==
 
-"@myriaddreamin/typst-ts-node-compiler-darwin-arm64@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-darwin-arm64/-/typst-ts-node-compiler-darwin-arm64-0.5.0-rc9.tgz#cd9cc3d2acdb313e9f3ac14fa576ce1175ade954"
-  integrity sha512-H2IAtaESka+NTWqnLxMd3X0RXYk/jt7baYDfGfvbWAwJE2LJmJTRYZrsjU8p2RKGFr7AtPNk6n70UzgMLUayWw==
+"@myriaddreamin/typst-ts-node-compiler-darwin-arm64@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-darwin-arm64/-/typst-ts-node-compiler-darwin-arm64-0.5.1.tgz#6a2f6477480e662214f58852a200c80052f0a8e3"
+  integrity sha512-6zHTIEXcM73dQWzeLJ3ojGk7prf9TYvcfxyCkCX5He3BdPx0lRFLCccXzvkdnTf/bpXLKXd+OKd7re/waf3Klg==
 
-"@myriaddreamin/typst-ts-node-compiler-darwin-x64@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-darwin-x64/-/typst-ts-node-compiler-darwin-x64-0.5.0-rc9.tgz#4364f9235ef6f3df680e7528fa18b24b602238d2"
-  integrity sha512-WbAxuFDQZw3+841iv2YB6+i0mNImrerb4tthql+GkQ2b8Hw8Z2oFMcWN0efH5gFetv8ZUfuoNwuHBaVMvnonJQ==
+"@myriaddreamin/typst-ts-node-compiler-darwin-x64@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-darwin-x64/-/typst-ts-node-compiler-darwin-x64-0.5.1.tgz#200ec1270926fec9e8c600d6490a29e80e7bc7ac"
+  integrity sha512-c2LmL9Dc74Y4DdCNDq+fDckTzYSpozNrjbfPn3hwwK/CbiP+/3iVD5vGKRAvwoWSOLveCdI0PlnO3XeGA+xdqQ==
 
-"@myriaddreamin/typst-ts-node-compiler-linux-arm-gnueabihf@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-arm-gnueabihf/-/typst-ts-node-compiler-linux-arm-gnueabihf-0.5.0-rc9.tgz#56846300bbd991df28a08fd40d840dc18a486187"
-  integrity sha512-l2YnyiTBoIEmZE4Rs7CvW0Nk0WMRc9wlaFXOA9AJsrWEZrYLP4nHIBUCtAa2jyTYMp+L4KEzr3l5Zvu6HL1AxA==
+"@myriaddreamin/typst-ts-node-compiler-linux-arm-gnueabihf@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-arm-gnueabihf/-/typst-ts-node-compiler-linux-arm-gnueabihf-0.5.1.tgz#ab79da02533d0fe7d59f7a6c4f876c3f997c0132"
+  integrity sha512-xBX0H66MUbpTekqa1WGDZRWQaXb9i6VqXgfjFk5ZUG8dyU2VZsmi5s7ibdburCWdOhu6LTl2B5OoaPL5YArdew==
 
-"@myriaddreamin/typst-ts-node-compiler-linux-arm64-gnu@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-arm64-gnu/-/typst-ts-node-compiler-linux-arm64-gnu-0.5.0-rc9.tgz#6aa2f28a1a6f42087dc7711450e705031a37d007"
-  integrity sha512-ccNCsOIK4gVOday2yR4N6CX0CO4jhPHOZYvSoepsRvL8GiQH0cXRbZZRtORaftgVj2M6czaEjfspvDNNKuzy3A==
+"@myriaddreamin/typst-ts-node-compiler-linux-arm64-gnu@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-arm64-gnu/-/typst-ts-node-compiler-linux-arm64-gnu-0.5.1.tgz#fb47a0ef1067777a0a8ed1b4b5fce63443f86671"
+  integrity sha512-LYSOj99sQoBdmZKiPq+/Ap4HjNZC5W1wyO3FknmaIUASdtAMYp6VqLMl1uS+YjvdZ5roao51encu11XrfYPNew==
 
-"@myriaddreamin/typst-ts-node-compiler-linux-arm64-musl@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-arm64-musl/-/typst-ts-node-compiler-linux-arm64-musl-0.5.0-rc9.tgz#63139f087b556d5c2eea67f7f4ba6067c757965a"
-  integrity sha512-qCin3JmdYLAXB0+0+Axk+YzPz3AdtZIihn9d50CyLkUmi8U9YyxMl6sSpt6Mvr8+g3zyyVHwlYebCRZ4Nb67mg==
+"@myriaddreamin/typst-ts-node-compiler-linux-arm64-musl@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-arm64-musl/-/typst-ts-node-compiler-linux-arm64-musl-0.5.1.tgz#675731171c4ebfb4bd4541d64bb75f10b2eb0cbb"
+  integrity sha512-PFeTuei5EwKTA85kqTIt066Uc7ojGxQErRbPYJhPraRaPXXfO7FXQAmpsPdXNiSeWiC87IwPDrd4RIp7XcjlsA==
 
-"@myriaddreamin/typst-ts-node-compiler-linux-x64-gnu@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-x64-gnu/-/typst-ts-node-compiler-linux-x64-gnu-0.5.0-rc9.tgz#9289112da71a954c0a0a99aa2b733528e42a3b90"
-  integrity sha512-Xpe1rPlchf+bRktKLJxZPj1mivNHg9xyegV1uik3GJ4LTaxV30d0vsyb5JMWEKC2wgs+wwkn0Ze6S9iPjhVn8A==
+"@myriaddreamin/typst-ts-node-compiler-linux-x64-gnu@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-x64-gnu/-/typst-ts-node-compiler-linux-x64-gnu-0.5.1.tgz#9a0d9d9d3cd3eb4b87816cfb9a43649f9fe04cc9"
+  integrity sha512-zz1XeL0hPvGOpbcgTXVKguFWALoLZ1cM8rhkE9X0+ZJWpeObjq9AirRR9vG7YYW43FthTNZ6EjYcFlAODoegbA==
 
-"@myriaddreamin/typst-ts-node-compiler-linux-x64-musl@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-x64-musl/-/typst-ts-node-compiler-linux-x64-musl-0.5.0-rc9.tgz#d2524ced5845cf687c5973b32d93b31064b8c3bf"
-  integrity sha512-JNrBIoYWPxgtJdAroYX+KXOaQav2Fon3VyS7hsKoCAH561vGcZvjVztIh7oNV0UPrrOW3YQQhN6b5dgGHodubQ==
+"@myriaddreamin/typst-ts-node-compiler-linux-x64-musl@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-linux-x64-musl/-/typst-ts-node-compiler-linux-x64-musl-0.5.1.tgz#54a0a68c49d2275025d209188bd4bae47fab3fb2"
+  integrity sha512-5ox7W+9z0xgQNkDGwRIUqNL4jSdigKVcVv3iePs8Qlh8FeKTqDgNye48vvUJo/VYWk0rkz2HjW+zxfWZfIOptw==
 
-"@myriaddreamin/typst-ts-node-compiler-win32-arm64-msvc@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-win32-arm64-msvc/-/typst-ts-node-compiler-win32-arm64-msvc-0.5.0-rc9.tgz#af2f8d7e8c10e09df71df0044fa565cd2a08ebb4"
-  integrity sha512-l+faWZsY3sUIpE+DWt9Xaa9QH17J5ZLL3XMQOS+ztKSaz/0EDFWpLcbM3mAy8PWAhK/ST3DjnoclOMyQSCJCnA==
+"@myriaddreamin/typst-ts-node-compiler-win32-arm64-msvc@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-win32-arm64-msvc/-/typst-ts-node-compiler-win32-arm64-msvc-0.5.1.tgz#05a0b69e0bd097e1928d4134c05cf9e6f9480d3c"
+  integrity sha512-j/W25eaSYJtNyMIRSKFwlpTcwxnwcfABWMq542gVUNwVCrJhjfto1iQ6OToG/qBpD02CJEUydetT1C2H7GFtpA==
 
-"@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc@0.5.0-rc9":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc/-/typst-ts-node-compiler-win32-x64-msvc-0.5.0-rc9.tgz#252deccfaa31745f2926d02dc71bc37bcc646f54"
-  integrity sha512-Nj2P5+d9ZZhP0QkBhLMur3C8Yi16SNvszRa7VYhF4fbVomgyc7Gzs7XP3FthDQAOfjS0N20QGi7VANREPgmYwA==
+"@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc/-/typst-ts-node-compiler-win32-x64-msvc-0.5.1.tgz#7d69d2b96a86c8b87e135cd58fdf93ca7a1474ad"
+  integrity sha512-z1DvhykbCAkJPLZw7WKFMHvnb0vT7dBaQpfa7kLvjSkX44wVP45k3T4jegP4+RAWtmzMBN5bSpjYCiMawPLBXQ==
 
-"@myriaddreamin/typst-ts-node-compiler@^0.5.0-rc7":
-  version "0.5.0-rc9"
-  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler/-/typst-ts-node-compiler-0.5.0-rc9.tgz#51612368f7335c564e20f0549ee1f000796b3a90"
-  integrity sha512-CoAdD19upbl0J+wn9T8x2OV8qXLlLwSoO9VnrNTzdTVmtBNon7lvQlle1g9XRQNuajx6l8uQMBG72Ko02D2i2w==
+"@myriaddreamin/typst-ts-node-compiler@^0.5.0-rc9":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@myriaddreamin/typst-ts-node-compiler/-/typst-ts-node-compiler-0.5.1.tgz#2a1f0ea35bf17a2655cfc7c8284e3ff36e789680"
+  integrity sha512-VR/0U7GHPeynFYEtBFo2NOrG8wxMYd2KYeTOALBKu+Bvt8xSjcrdrAOI/c1QYWP1ZwLzrngHGj+4zMBBxVw5hw==
   optionalDependencies:
-    "@myriaddreamin/typst-ts-node-compiler-android-arm-eabi" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-android-arm64" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-darwin-arm64" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-darwin-x64" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-linux-arm-gnueabihf" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-linux-arm64-gnu" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-linux-arm64-musl" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-linux-x64-gnu" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-linux-x64-musl" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-win32-arm64-msvc" "0.5.0-rc9"
-    "@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc" "0.5.0-rc9"
+    "@myriaddreamin/typst-ts-node-compiler-android-arm-eabi" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-android-arm64" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-darwin-arm64" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-darwin-x64" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-linux-arm-gnueabihf" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-linux-arm64-gnu" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-linux-arm64-musl" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-linux-x64-gnu" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-linux-x64-musl" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-win32-arm64-msvc" "0.5.1"
+    "@myriaddreamin/typst-ts-node-compiler-win32-x64-msvc" "0.5.1"
 
 "@napi-rs/simple-git-android-arm-eabi@0.1.19":
   version "0.1.19"
@@ -831,39 +831,39 @@
   resolved "https://registry.yarnpkg.com/@pixi/colord/-/colord-2.9.6.tgz#7e4e7851480da6fd3cef4e331f008d60be7e1204"
   integrity sha512-nezytU2pw587fQstUu1AsJZDVEynjskwOL+kibwcdxsMBFqPsFFNA7xl0ii/gXuDi6M0xj3mfRJj8pBSc2jCfA==
 
-"@shikijs/core@1.23.1":
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.23.1.tgz#911473e672e4f2d15ca36b28b28179c0959aa7af"
-  integrity sha512-NuOVgwcHgVC6jBVH5V7iblziw6iQbWWHrj5IlZI3Fqu2yx9awH7OIQkXIcsHsUmY19ckwSgUMgrqExEyP5A0TA==
+"@shikijs/core@1.24.2":
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.24.2.tgz#6308697f84a5029983885d0a7651d1667444bbce"
+  integrity sha512-BpbNUSKIwbKrRRA+BQj0BEWSw+8kOPKDJevWeSE/xIqGX7K0xrCZQ9kK0nnEQyrzsUoka1l81ZtJ2mGaCA32HQ==
   dependencies:
-    "@shikijs/engine-javascript" "1.23.1"
-    "@shikijs/engine-oniguruma" "1.23.1"
-    "@shikijs/types" "1.23.1"
+    "@shikijs/engine-javascript" "1.24.2"
+    "@shikijs/engine-oniguruma" "1.24.2"
+    "@shikijs/types" "1.24.2"
     "@shikijs/vscode-textmate" "^9.3.0"
     "@types/hast" "^3.0.4"
     hast-util-to-html "^9.0.3"
 
-"@shikijs/engine-javascript@1.23.1":
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/@shikijs/engine-javascript/-/engine-javascript-1.23.1.tgz#0f634bea22cb14f471835b7b5f1da66bc34bd359"
-  integrity sha512-i/LdEwT5k3FVu07SiApRFwRcSJs5QM9+tod5vYCPig1Ywi8GR30zcujbxGQFJHwYD7A5BUqagi8o5KS+LEVgBg==
+"@shikijs/engine-javascript@1.24.2":
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/@shikijs/engine-javascript/-/engine-javascript-1.24.2.tgz#af5920fdd76765d04dc5ec1a65cc77e355d6ceed"
+  integrity sha512-EqsmYBJdLEwEiO4H+oExz34a5GhhnVp+jH9Q/XjPjmBPc6TE/x4/gD0X3i0EbkKKNqXYHHJTJUpOLRQNkEzS9Q==
   dependencies:
-    "@shikijs/types" "1.23.1"
+    "@shikijs/types" "1.24.2"
     "@shikijs/vscode-textmate" "^9.3.0"
-    oniguruma-to-es "0.4.1"
+    oniguruma-to-es "0.7.0"
 
-"@shikijs/engine-oniguruma@1.23.1":
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/@shikijs/engine-oniguruma/-/engine-oniguruma-1.23.1.tgz#c6c34c9152cf90c1ee75fcdbd124253c8ad0635f"
-  integrity sha512-KQ+lgeJJ5m2ISbUZudLR1qHeH3MnSs2mjFg7bnencgs5jDVPeJ2NVDJ3N5ZHbcTsOIh0qIueyAJnwg7lg7kwXQ==
+"@shikijs/engine-oniguruma@1.24.2":
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/@shikijs/engine-oniguruma/-/engine-oniguruma-1.24.2.tgz#90924001a17a2551a2a9073aed4af3767ce68b1b"
+  integrity sha512-ZN6k//aDNWRJs1uKB12pturKHh7GejKugowOFGAuG7TxDRLod1Bd5JhpOikOiFqPmKjKEPtEA6mRCf7q3ulDyQ==
   dependencies:
-    "@shikijs/types" "1.23.1"
+    "@shikijs/types" "1.24.2"
     "@shikijs/vscode-textmate" "^9.3.0"
 
-"@shikijs/types@1.23.1":
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/@shikijs/types/-/types-1.23.1.tgz#2386d49258be03e7b40fea1f28fda952739ad93d"
-  integrity sha512-98A5hGyEhzzAgQh2dAeHKrWW4HfCMeoFER2z16p5eJ+vmPeF6lZ/elEne6/UCU551F/WqkopqRsr1l2Yu6+A0g==
+"@shikijs/types@1.24.2":
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/@shikijs/types/-/types-1.24.2.tgz#770313a0072a7c14ab1a130a36d02df7e4d87375"
+  integrity sha512-bdeWZiDtajGLG9BudI0AHet0b6e7FbR0EsE4jpGaI0YwHm/XJunI9+3uZnzFtX65gsyJ6ngCIWUfA4NWRPnBkQ==
   dependencies:
     "@shikijs/vscode-textmate" "^9.3.0"
     "@types/hast" "^3.0.4"
@@ -1120,13 +1120,6 @@
   dependencies:
     "@types/ms" "*"
 
-"@types/dompurify@^3.0.5":
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-3.2.0.tgz#56610bf3e4250df57744d61fbd95422e07dfb840"
-  integrity sha512-Fgg31wv9QbLDA0SpTOXO3MaxySc4DKGLi8sna4/Utjo4r3ZRPdCt4UQee8BWr+Q5z21yifghREPJGYaEOEIACg==
-  dependencies:
-    dompurify "*"
-
 "@types/earcut@^2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@types/earcut/-/earcut-2.1.4.tgz#5811d7d333048f5a7573b22ddc84923e69596da6"
@@ -1190,10 +1183,10 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/node@*", "@types/node@^22.9.0":
-  version "22.10.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.0.tgz#89bfc9e82496b9c7edea3382583fa94f75896e81"
-  integrity sha512-XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==
+"@types/node@*", "@types/node@^22.10.2":
+  version "22.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.2.tgz#a485426e6d1fdafc7b0d4c7b24e2c78182ddabb9"
+  integrity sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==
   dependencies:
     undici-types "~6.20.0"
 
@@ -1976,17 +1969,12 @@ devlop@^1.0.0, devlop@^1.1.0:
   dependencies:
     dequal "^2.0.0"
 
-dompurify@*:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.2.1.tgz#d480972aeb1a59eb8ac47cba95558fbd72a0127b"
-  integrity sha512-NBHEsc0/kzRYQd+AY6HR6B/IgsqzBABrqJbpCDQII/OK6h7B7LXzweZTDsqSW2LkTRpoxf18YUP+YjGySk6B3w==
+dompurify@^3.2.1:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.2.3.tgz#05dd2175225324daabfca6603055a09b2382a4cd"
+  integrity sha512-U1U5Hzc2MO0oW3DF+G9qYN0aT7atAou4AgI0XjWz061nyBPbdxkfdhfy5uMgGn6+oLFCfn44ZGbdDqCzVmlOWA==
   optionalDependencies:
     "@types/trusted-types" "^2.0.7"
-
-"dompurify@^3.0.11 <3.1.7":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-3.1.6.tgz#43c714a94c6a7b8801850f82e756685300a027e2"
-  integrity sha512-cTOAhc36AalkjtBpfG6O8JimdTMWNXjiePT2xQH/ppBGi/4uIpmj8eKyIkMJErXWARyINV/sB38yf8JCLF5pbQ==
 
 earcut@^2.2.4:
   version "2.2.4"
@@ -2375,10 +2363,10 @@ hast-util-raw@^9.0.0:
     web-namespaces "^2.0.0"
     zwitch "^2.0.0"
 
-hast-util-to-html@^9.0.3:
-  version "9.0.3"
-  resolved "https://registry.yarnpkg.com/hast-util-to-html/-/hast-util-to-html-9.0.3.tgz#a9999a0ba6b4919576a9105129fead85d37f302b"
-  integrity sha512-M17uBDzMJ9RPCqLMO92gNNUDuBSq10a25SDBI08iCCxmorf4Yy6sYHK57n9WAbRAAaU+DuR4W6GN9K4DFZesYg==
+hast-util-to-html@^9.0.3, hast-util-to-html@^9.0.4:
+  version "9.0.4"
+  resolved "https://registry.yarnpkg.com/hast-util-to-html/-/hast-util-to-html-9.0.4.tgz#d689c118c875aab1def692c58603e34335a0f5c5"
+  integrity sha512-wxQzXtdbhiwGAUKrnQJXlOPmHnEehzphwkK7aluUPQ+lEc1xefC8pblMgpp2w5ldBTEfveRIrADcrhGIWrlTDA==
   dependencies:
     "@types/hast" "^3.0.0"
     "@types/unist" "^3.0.0"
@@ -3052,16 +3040,15 @@ merge2@^1.3.0:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-mermaid@^11.4.0:
-  version "11.4.0"
-  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-11.4.0.tgz#e510f45700ed4b31e1dc327b3a405ad9f6907ca3"
-  integrity sha512-mxCfEYvADJqOiHfGpJXLs4/fAjHz448rH0pfY5fAoxiz70rQiDSzUUy4dNET2T08i46IVpjohPd6WWbzmRHiPA==
+mermaid@^11.4.1:
+  version "11.4.1"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-11.4.1.tgz#577fad5c31a01a06d9f793e298d411f1379eecc8"
+  integrity sha512-Mb01JT/x6CKDWaxigwfZYuYmDZ6xtrNwNlidKZwkSrDaY9n90tdrJTV5Umk+wP1fZscGptmKFXHsXMDEVZ+Q6A==
   dependencies:
     "@braintree/sanitize-url" "^7.0.1"
     "@iconify/utils" "^2.1.32"
     "@mermaid-js/parser" "^0.3.0"
     "@types/d3" "^7.4.3"
-    "@types/dompurify" "^3.0.5"
     cytoscape "^3.29.2"
     cytoscape-cose-bilkent "^4.1.0"
     cytoscape-fcose "^2.2.0"
@@ -3069,7 +3056,7 @@ mermaid@^11.4.0:
     d3-sankey "^0.12.3"
     dagre-d3-es "7.0.11"
     dayjs "^1.11.10"
-    dompurify "^3.0.11 <3.1.7"
+    dompurify "^3.2.1"
     katex "^0.16.9"
     khroma "^2.1.0"
     lodash-es "^4.17.21"
@@ -3487,14 +3474,14 @@ node-fetch@~2.6.1:
   dependencies:
     whatwg-url "^5.0.0"
 
-oniguruma-to-es@0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/oniguruma-to-es/-/oniguruma-to-es-0.4.1.tgz#112fbcd5fafe4f635983425a6db88f3e2de37107"
-  integrity sha512-rNcEohFz095QKGRovP/yqPIKc+nP+Sjs4YTHMv33nMePGKrq/r2eu9Yh4646M5XluGJsUnmwoXuiXE69KDs+fQ==
+oniguruma-to-es@0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/oniguruma-to-es/-/oniguruma-to-es-0.7.0.tgz#999fe7df1e6acae4507e2d77afc6de4fc8533116"
+  integrity sha512-HRaRh09cE0gRS3+wi2zxekB+I5L8C/gN60S+vb11eADHUaB/q4u8wGGOX3GvwvitG8ixaeycZfeoyruKQzUgNg==
   dependencies:
     emoji-regex-xs "^1.0.0"
-    regex "^5.0.0"
-    regex-recursion "^4.2.1"
+    regex "^5.0.2"
+    regex-recursion "^4.3.0"
 
 package-json-from-dist@^1.0.0:
   version "1.0.1"
@@ -3615,10 +3602,10 @@ picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-pixi.js@^8.5.2:
-  version "8.5.2"
-  resolved "https://registry.yarnpkg.com/pixi.js/-/pixi.js-8.5.2.tgz#ee85016b4530c8dd3264dd9fe1440f6987ef73f9"
-  integrity sha512-TOt9g8ifOj4R9DN9ST1M8t2nvnuhr5oWL5YW9ywFLbnOVgFMDcEz+Xek5Mo8Xr64D+QU3qre3IFgreBlsHxTNw==
+pixi.js@^8.6.5:
+  version "8.6.5"
+  resolved "https://registry.yarnpkg.com/pixi.js/-/pixi.js-8.6.5.tgz#2114ca79a23e42236afdefa0f25a7a06ade6ef09"
+  integrity sha512-53QeyNbvbojFvCoKT7CgLE/O+6Fuf4KHRjOciwFpRKx5zhyoD7/WR1SYJ75wfo523m5QtJw+tn86n18zsroGaw==
   dependencies:
     "@pixi/colord" "^2.9.6"
     "@types/css-font-loading-module" "^0.0.12"
@@ -3657,20 +3644,20 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-preact-render-to-string@^6.5.11:
-  version "6.5.11"
-  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.11.tgz#467e69908a453497bb93d4d1fc35fb749a78e027"
-  integrity sha512-ubnauqoGczeGISiOh6RjX0/cdaF8v/oDXIjO85XALCQjwQP+SB4RDXXtvZ6yTYSjG+PC1QRP2AhPgCEsM2EvUw==
+preact-render-to-string@^6.5.12:
+  version "6.5.12"
+  resolved "https://registry.yarnpkg.com/preact-render-to-string/-/preact-render-to-string-6.5.12.tgz#57578b652d50294ae8084650e144e83a2bdb2217"
+  integrity sha512-FpU7/cRipZo4diSWQq7gZWVp+Px76CtVduJZNvQwVzynDsAIxKteMrjCCGPbM2oEasReoDffaeMCMlaur9ohIg==
 
-preact@^10.24.3:
-  version "10.25.0"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-10.25.0.tgz#22a1c93ce97336c5d01d74f363433ab0cd5cde64"
-  integrity sha512-6bYnzlLxXV3OSpUxLdaxBmE7PMOu0aR3pG6lryK/0jmvcDFPlcXGQAt5DpK3RITWiDrfYZRI0druyaK/S9kYLg==
+preact@^10.25.2:
+  version "10.25.2"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.25.2.tgz#e141e18a547ae0082dae48d044e0d8267e2547d2"
+  integrity sha512-GEts1EH3oMnqdOIeXhlbBSddZ9nrINd070WBOiPO2ous1orrKGUM4SMDbwyjSWD1iMS2dBvaDjAa5qUhz3TXqw==
 
-prettier@^3.3.3:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.0.tgz#9dcd5e617cf103db8e4bd00924baecfd32bf9971"
-  integrity sha512-/OXNZcLyWkfo13ofOW5M7SLh+k5pnIs07owXK2teFpnfaOEcycnSy7HQxldaVX1ZP/7Q8oO1eDuQJNwbomQq5Q==
+prettier@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.2.tgz#a5ce1fb522a588bf2b78ca44c6e6fe5aa5a2b13f"
+  integrity sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==
 
 pretty-bytes@^6.1.1:
   version "6.1.1"
@@ -3724,10 +3711,10 @@ reading-time@^1.5.0:
   resolved "https://registry.yarnpkg.com/reading-time/-/reading-time-1.5.0.tgz#d2a7f1b6057cb2e169beaf87113cc3411b5bc5bb"
   integrity sha512-onYyVhBNr4CmAxFsKS7bz+uTLRakypIe4R+5A824vBSkQy/hB3fZepoVEf8OVAxzLvK+H/jm9TzpI3ETSm64Kg==
 
-regex-recursion@^4.2.1:
-  version "4.2.1"
-  resolved "https://registry.yarnpkg.com/regex-recursion/-/regex-recursion-4.2.1.tgz#024ee28593b8158e568307b99bf1b7a3d5ea31e9"
-  integrity sha512-QHNZyZAeKdndD1G3bKAbBEKOSSK4KOHQrAJ01N1LJeb0SoH4DJIeFhp0uUpETgONifS4+P3sOgoA1dhzgrQvhA==
+regex-recursion@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/regex-recursion/-/regex-recursion-4.3.0.tgz#32c3a42a57d78bf2d0c83875074c2f7ebaf2a4f6"
+  integrity sha512-5LcLnizwjcQ2ALfOj95MjcatxyqF5RPySx9yT+PaXu3Gox2vyAtLDjHB8NTJLtMGkvyau6nI3CfpwFCjPUIs/A==
   dependencies:
     regex-utilities "^2.3.0"
 
@@ -3736,7 +3723,7 @@ regex-utilities@^2.3.0:
   resolved "https://registry.yarnpkg.com/regex-utilities/-/regex-utilities-2.3.0.tgz#87163512a15dce2908cf079c8960d5158ff43280"
   integrity sha512-8VhliFJAWRaUiVvREIiW2NXXTmHs4vMNnSzuJVhscgmGav3g9VDxLrQndI3dZZVVdp0ZO/5v0xmX516/7M9cng==
 
-regex@^5.0.0:
+regex@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/regex/-/regex-5.0.2.tgz#291d960467e6499a79ceec022d20a4e0df67c54f"
   integrity sha512-/pczGbKIQgfTMRV0XjABvc5RzLqQmwqxLHdQao2RTXPk+pmTXB2P0IaUHYdYyk412YLwUIkaeMd5T+RzVgTqnQ==
@@ -4076,10 +4063,10 @@ sass@^1.71.1:
   optionalDependencies:
     "@parcel/watcher" "^2.4.1"
 
-satori@^0.11.3:
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/satori/-/satori-0.11.3.tgz#65443e0531207ab9a77780539f1277c56d7c08d2"
-  integrity sha512-Wg7sls0iYAEETzi9YYcY16QVIqXjZT06XjkwondC5CGhw1mhmgKBCub8cCmkxdl/naXXQD+m29CFgn8pwtYCnA==
+satori@^0.12.0:
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/satori/-/satori-0.12.0.tgz#6ffd11daedbf63fc6a68411639894da128b7a99f"
+  integrity sha512-e0e+qQyeFwEszujN7SpWpRtZgww7Nh8lSO3bUn2spHZ5JpqEl3zJ3P14/JlWruxEwdgREs35ZnavrPrWaRVFDg==
   dependencies:
     "@shuding/opentype.js" "1.4.0-beta.0"
     css-background-parser "^0.1.0"
@@ -4167,15 +4154,15 @@ shebang-regex@^3.0.0:
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
-shiki@^1.23.1:
-  version "1.23.1"
-  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.23.1.tgz#02f149e8f2592509e701f3a806fd4f3dd64d17e9"
-  integrity sha512-8kxV9TH4pXgdKGxNOkrSMydn1Xf6It8lsle0fiqxf7a1149K1WGtdOu3Zb91T5r1JpvRPxqxU3C2XdZZXQnrig==
+shiki@^1.24.2:
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.24.2.tgz#9db5b2ebe452d24769377c733ae1944f996ad584"
+  integrity sha512-TR1fi6mkRrzW+SKT5G6uKuc32Dj2EEa7Kj0k8kGqiBINb+C1TiflVOiT9ta6GqOJtC4fraxO5SLUaKBcSY38Fg==
   dependencies:
-    "@shikijs/core" "1.23.1"
-    "@shikijs/engine-javascript" "1.23.1"
-    "@shikijs/engine-oniguruma" "1.23.1"
-    "@shikijs/types" "1.23.1"
+    "@shikijs/core" "1.24.2"
+    "@shikijs/engine-javascript" "1.24.2"
+    "@shikijs/engine-oniguruma" "1.24.2"
+    "@shikijs/types" "1.24.2"
     "@shikijs/vscode-textmate" "^9.3.0"
     "@types/hast" "^3.0.4"
 
