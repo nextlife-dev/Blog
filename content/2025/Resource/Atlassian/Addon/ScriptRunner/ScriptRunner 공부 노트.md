@@ -1,0 +1,57 @@
+---
+title: ScriptRunner 개발 노트
+description: 
+aliases:
+  - Seungwoo Ham
+tags:
+  - atlassian
+  - addon
+date: 2025-01-01
+---
+## Groovy 기초
+
+- [Tutorialspoint의 Groovy 튜토리얼](https://www.tutorialspoint.com/groovy/index.htm) – 학습
+- [Groovy Web Console](https://gwc-experiment.appspot.com/#6njRy61Tm0) – 실습
+
+위의 두 가지 사이트를 통해 Groovy에 대해 공부합니다.
+
+## Jira 객체 모델 이해
+
+```groovy
+def issueManager = componentAccessor.issueManager
+def projectManager = componentAccessor.projectManager
+def userManager = componentAccessor.userManager
+```
+
+**ComponentAccessor**는 Jira의 핵심 서비스에 접근하는 게이트웨이입니다.
+
+이는 Jira API로는 기능을 제한적으로 사용할 수 있지만, 위 객체를 활용하면 더 많은 구성요소에 접근하여 자유롭게 다룰 수 있습니다.
+
+다만 주의해야 하는 점이 있습니다:
+
+- Null 체크를 항상 확인한다.
+- 이슈 작업 시 권한 고려해야 한다.
+- JQL 활용하여 효율적인 이슈 검색이 가능하다.
+
+## Script Console
+
+기본적인 로그 레벨:
+
+```
+log.debug("디버그 메시지")  // 개발 시 상세 정보
+log.info("정보 메시지")    // 일반적인 정보
+log.warn("경고 메시지")    // 주의가 필요한 상황
+log.error("오류 메시지")   // 심각한 문제 발생
+```
+
+이 Script Console은 Groovy 문법 기반으로 하는 것이기에, 어려울 점이 없을 것입니다.
+
+단지 디버깅을 잘하면 Script 개발이 가능합니다:
+
+- log Level 적절히 활용하여 정보를 구분
+- 예외  처리를 통해 안정적인 Script 작성
+- 단계별로 값을 확인하며 문제를 찾기
+
+## 워크플로우 자동화
+
+- [[2025/Resource/Atlassian/Addon/ScriptRunner/워크플로우 자동화 예제|워크플로우 자동화 예제]]
