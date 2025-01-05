@@ -1,9 +1,12 @@
 ---
-title: Sword Art Online Player Trade Plugin
+title: SafeTrade
 description: 
-aliases: ["Seungwoo Ham"] 
-tags: []
+aliases:
+  - Seungwoo Ham
+tags:
+  - project
 date: 2025-01-01
+draft: "true"
 ---
 ## 개요
 
