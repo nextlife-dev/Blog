@@ -77,7 +77,8 @@ title: Introduction
 
 > 2024.12 ~ 현재
 
--
+- Jira, Confluence 운영
+- Jira Addon (ScriptRunner, EazyBI)
 
 ### Connect with me  
 <a href="https://github.com/https://github.com/nextlife-dev" target="_blank">
