@@ -21,6 +21,8 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
 - `ThreadPoolExecutor` 스레드 기반의 병렬 처리를 위한 클래스
 - `ProcessPoolExecutor` 프로세스 기반의 병렬 처리를 위한 클래스
 
+---
+
 ## Future 객체
 
 비동기적으로 실행되는 작업의 결과를 나타냅니다.  

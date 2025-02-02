@@ -11,6 +11,8 @@ HTTP 기반의 핸드셰이크를 통해 연결을 설정한 후, 양방향 실�
 
 이때 Spring Boot에서는 `@RestController`가 아닌 `@Controller`를 써야 하는 이유에 대해 조사해봤습니다.
 
+---
+
 ## 특징 차이
 
 `@RestController`는 REST 통신에서 필요한 `@ResponseBody` 포함합니다. 그래서 자동으로 JSON/XML Body 타입으로 바꿔서 응답해주는 방식으로 되어있습니다.
